@@ -1,0 +1,65 @@
+#banner {
+  background-image: url("images/troll.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 200px 0;
+}
+
+body {
+  text-align: center;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+.link-medium {
+  font-size: 50px;
+  text-decoration: none;
+  color: blue;
+}
+
+.link-medium:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 786px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
